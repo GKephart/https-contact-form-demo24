@@ -3,7 +3,7 @@ services:
   backend:
     build: ./php
   frontend:
-    build: ./public_html\
+    build: ./public_html
     ports:
       - "80:80"
       - "443:443"
